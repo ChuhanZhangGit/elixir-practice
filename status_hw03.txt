@@ -8,7 +8,7 @@ Chuhan Zhang
 hw03.chuhandev.com
 
 3. What's the URL of your git repo?
-
+https://github.com/ChuhanZhangGit/elixir-practice.git
 
 4. How much of the functionality did you complete?
 Implemented fraction of prime number. Used library function for expression.
