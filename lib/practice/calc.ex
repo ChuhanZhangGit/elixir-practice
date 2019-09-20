@@ -4,14 +4,22 @@ defmodule Practice.Calc do
     num
   end
 
+  # def tag_tokens(expr) do
+  #     map filter reduce foreach 
+  # end
+
+
+
   def calc(expr) do
     # This should handle +,-,*,/ with order of operations,
     # but doesn't need to handle parens.
     expr
-    |> String.split(~r/\s+/)
-    |> hd
-    |> parse_float
-    |> :math.sqrt()
+    Code.eval_string(expr)
+    |> elem(0)
+    # |> String.split(~r/\s+/)
+    # |> hd
+    # |> parse_float
+    # |> :math.sqrt()
 
     # Hint:
     # expr
